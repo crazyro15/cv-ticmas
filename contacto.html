@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h2 class="header-img">CONTACTO</h2>
+    </header>
+      
+      <form id="contact-form" method="" name="ContactForm">
+        <h2>
+          Espero tu mensaje!
+        </h2>
+    
+        <p class="inputfield"><label for="name">Tu nombre</label></p> 
+                <input type="text" id="name" name="name" style="color: #fff;" required/> 
+                             
+          <p class="inputfield"><label for="subject">Tu correo</label></p> 
+                    <input type="mail" id="correo" name="name" style="color: #fff;" required/> 
+        
+            <p class="inputfield"><label for="message">Tu mensaje</label></p> 
+                    <textarea name="message" id="message" ></textarea> 
+                
+            <input name="submit" type="submit" id="submit" onclick="enviar()" value="Enviar"/>
+         </form>
+      
+      <footer>
+                <p class="footer">Gracias!!!</a></p>
+        </footer>
+
+        <script src="js/script.js"></script>
+</body>
+</html>

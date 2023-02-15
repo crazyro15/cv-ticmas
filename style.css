@@ -1,0 +1,289 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Signika Negative', sans-serif;
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+}
+
+body{
+  /* padding-top: 82px; */
+  margin-left: 0;
+}
+
+.navbar{
+  background-color: rgb(0, 0, 255, 0.7);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  overflow: hidden
+}
+
+.titulosContainer{
+  padding-top: 82px;
+}
+
+
+
+.navbarLista{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.navbarItem{
+  margin: 1em;
+}
+
+ .navbar > ul, .navbar > ul > li > a{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar > ul > li > a:hover{
+  color: blue;
+  background-color: white;
+}
+
+.container{
+  display:flex;
+  flex-direction:row;
+}
+
+.containerEncabezado{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.ladoIzq{
+  display:flex;
+  flex-direction:column;
+  position: fixed;
+  color: white;
+  background-color: #005bbd;
+  height: 100%;
+}
+
+.fotoPerfil{
+  width: 20em;
+  height: 20em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 220px;
+}
+
+.fotoContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloIzq{
+  display:flex;
+  justify-content: center;
+  font-size: 1.5em;
+  width: 100%;
+}
+
+.datosContacto{
+  display: flex;
+  flex-direction: column;
+}
+
+.lineaContacto{
+  padding: 1em;
+}
+
+.filaIcono{
+  align-items: start;
+  margin-right: 0.5em;
+  display: flex;
+  color: #005bbd;
+  background: white;
+  border: white 1px solid;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  padding: 0 0.5em 0 0.5em;
+  margin: 0.5em 0.5em 0.5em 0;
+  font-size: 1.5em;
+  text-align: end;
+}
+
+
+.filaDatos{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.filaDatos > li{
+  list-style-type: none;
+  margin: 0 2em 0 2em;
+  margin-left: 0;
+}
+
+.filaDatos > ul{
+  margin: 0;
+}
+
+a{
+  color: white;
+  text-decoration-color: white;
+}
+
+/*javascript ocultar/mostrar contacto*/
+.ladoIzq{
+  opacity: 0;
+}
+
+.ladoIzqOculto{
+  opacity: 1;
+}
+
+/**/
+
+.cruz{
+  text-align: end;
+}
+
+.iconDato{
+  font-size: 1.5em;
+}
+
+.datosBarra{
+  display:flex;
+  flex-direction: column;
+}
+
+.filaHabilidades, .filaSoftware{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0.2em 2.5em;
+}
+
+.datosHobbies{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icoHobbie{
+  padding: 0.5em;
+  font-size: 4em;
+  background-color: blue;
+  margin: 0.5em;
+  color: white;
+  border: solid 2px rgb(102, 79, 233);
+  box-shadow: 10px 13px 5px 0px rgba(0,0,0,0.66);
+-webkit-box-shadow: 10px 13px 5px 0px rgba(0,0,0,0.66);
+-moz-box-shadow: 10px 13px 5px 0px rgba(0,0,0,0.66);
+}
+
+.ladoDer{
+  display: flex;
+  flex-direction: column;
+  padding-left: 2em;
+  padding-right: 1em;
+  color: #005bbd;
+  margin-left: 1em;
+  background: rgb(244,244,247);
+background: linear-gradient(90deg, rgba(244,244,247,0) 35%, rgba(106,104,255,1) 100%);
+}
+
+
+.nombre{
+  font-size: 4em;
+  margin: 0;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.apellido{
+  font-size: 5em;
+  color: black;
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.puesto{
+  font-size: 2em;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.descripcion{
+  font-size: 1.5em;
+  margin: 2em;
+}
+
+.info{
+  line-height:1.5em;
+  margin-right: 2.5em;
+  font-size: 1.2em;
+}
+
+.tituloBorde{
+  color: white;
+  background: blue;
+  width: 30%;
+  border-radius: 1em;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 1.5em;
+  box-shadow: 10px 13px 5px 0px rgba(0,0,0,0.66);
+-webkit-box-shadow: 10px 13px 5px 0px rgba(0,0,0,0.66);
+-moz-box-shadow: 10px 13px 5px 0px rgba(0,0,0,0.66);
+}
+
+.btnContactame{
+  width: 80%;
+  margin: 0.5em;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.btnContactame:hover{
+  color: blue;
+  background-color: white;
+}
+
+.tituloDescripcion{
+  font-size: 1.5em;
+}
+
+.infoDescripcion{
+  font-size: 1.2em;
+}
+
+.educaciones{
+  display: flex;
+  flex-direction: column;
+}
+
+.eduItem{
+  display: flex;
+  flex-direction: row;
+}
+
+.año{
+  margin-right: 1em;
+}
+
+
+
+
+
+
